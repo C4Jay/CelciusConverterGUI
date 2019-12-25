@@ -21,7 +21,7 @@ public class CelciusConverterGUI extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 int tempfrnht = (int)((Double.parseDouble(CelciustextField.getText()))
                         * 1.8 + 32 );
-                
+
                 frnheit_lbl.setText(tempfrnht + " Farenheit ");
 
 
