@@ -6,7 +6,7 @@
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties>
-      <background color="-9255199"/>
+      <background color="-9636010"/>
     </properties>
     <border type="none"/>
     <children>
@@ -34,20 +34,22 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background color="-4518526"/>
-          <foreground color="-15591749"/>
+          <background color="-16777216"/>
+          <font name="Segoe UI Emoji" size="16" style="1"/>
+          <foreground color="-1"/>
           <text value="Convert"/>
         </properties>
       </component>
       <component id="a8e12" class="javax.swing.JLabel" binding="frnheit_lbl">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-2015457"/>
           <font name="HP Simplified" size="18" style="1"/>
           <foreground color="-6139896"/>
           <text value="Farenheit"/>
+          <toolTipText value="shows farenheit value"/>
         </properties>
       </component>
     </children>
